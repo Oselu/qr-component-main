@@ -4,6 +4,49 @@
     padding: 0;
     box-sizing: border-box;
     background-color: #d6e2f0;
+}
 
+.body-container{
+    width: 400px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 25px 25px 0;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.image-of-card{
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
+.card-title{
+   font-size: 22px;
+   line-height: 28px;
+   font-weight: bold;
+   text-align: center;
+   color: var(--dark-navy);
+   margin-top: 24px;
+   margin-bottom: 0;
+
+    
+}
+
+.card-description{
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing:0.19px;
+    color: var(--grey);
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-right: 16px;
+    text-align: center;
 }
 
